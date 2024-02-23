@@ -14,7 +14,7 @@ driver.maximize_window()
 time.sleep(4)
 
 
-# # amzon captha
+# # amazon captcha
 # link=driver.find_element(By.XPATH,"//div[@class='a-row a-text-center']//img").get_attribute('src')
 # capthca=AmazonCaptcha.fromlink(link)
 # captcha_value=AmazonCaptcha.solve(capthca)
